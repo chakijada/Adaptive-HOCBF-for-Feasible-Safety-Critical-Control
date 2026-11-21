@@ -1,0 +1,5 @@
+matplotlib==3.11.2
+numpy==1.26.4
+pandas==3.0.6
+quadprog==0.1.13
+scipy==1.17.1

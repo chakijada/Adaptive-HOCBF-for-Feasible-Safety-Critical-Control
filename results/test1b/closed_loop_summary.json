@@ -1,0 +1,198 @@
+{
+  "dt": 0.01,
+  "samples": 1020,
+  "obstacles": 4,
+  "command_samples": 1020,
+  "controller_name": "Local Configuration Search (LCS) controller",
+  "source_method": "Local Configuration Search with feasibility LP",
+  "search_depth": 3,
+  "all_obstacle_constraints_soft": true,
+  "experiment": "v3_e2: v3_e restarted from its first strictly admissible sample",
+  "source_experiment": "v3_e",
+  "source_reported_time": 0.31,
+  "source_absolute_reference_time": 1.81,
+  "common_initial_state": [
+    -0.19430812336413172,
+    0.2761703758910268,
+    0.9424633499916794,
+    -1.8775789743224622,
+    -0.5658242954692699,
+    3.4880128080005077
+  ],
+  "common_initial_gains": {
+    "kappa_1": 2.3,
+    "kappa_1_dot": 0.0,
+    "kappa_2": 2.0,
+    "eta": 0.35
+  },
+  "reference_policy": "continuation of the V2_b reference from absolute time 1.81 s, followed by regulation at its endpoint; time is rebased to t0=0",
+  "closed_loop_start_time": 0.0,
+  "all_controllers_active_from_first_sample": true,
+  "reference_end_time": 2.19,
+  "goal": [
+    2.0,
+    0.0
+  ],
+  "arrival_tolerance": 0.12,
+  "standard_final_goal_reach_time": 5.4399999999999995,
+  "lcs_final_goal_reach_time": 5.970000000000001,
+  "proposed_final_goal_reach_time": 5.83,
+  "standard_final_position_error": 0.0003206164039901128,
+  "lcs_final_position_error": 0.0006352883195510618,
+  "proposed_final_position_error": 0.0005326837787450352,
+  "reference_first_c4_unsafe_time": 0.7199999999999998,
+  "standard_null_samples": 52,
+  "lcs_null_samples": 0,
+  "proposed_null_samples": 0,
+  "standard_null_intervals": [
+    [
+      0.22999999999999998,
+      0.48999999999999977,
+      27
+    ],
+    [
+      1.92,
+      1.92,
+      1
+    ],
+    [
+      2.11,
+      2.2399999999999998,
+      14
+    ],
+    [
+      2.3800000000000003,
+      2.3800000000000003,
+      1
+    ],
+    [
+      2.4099999999999997,
+      2.4200000000000004,
+      2
+    ],
+    [
+      2.44,
+      2.44,
+      1
+    ],
+    [
+      2.4599999999999995,
+      2.47,
+      2
+    ],
+    [
+      2.4899999999999998,
+      2.4899999999999998,
+      1
+    ],
+    [
+      2.5100000000000002,
+      2.5100000000000002,
+      1
+    ],
+    [
+      2.53,
+      2.53,
+      1
+    ],
+    [
+      2.5500000000000003,
+      2.5500000000000003,
+      1
+    ]
+  ],
+  "standard_c4_collision_intervals": [
+    [
+      1.08,
+      3.9999999999999996,
+      293
+    ]
+  ],
+  "lcs_c4_collision_intervals": [],
+  "lcs_c4_always_selected": true,
+  "lcs_min_kept_residual_after_filter": -4.884981308350689e-14,
+  "lcs_c4_at_filter_activation": {
+    "time": 0.0,
+    "h": 0.8616781198459025,
+    "phi1": 0.008653078293872074,
+    "phi2": 5.3781471021232266,
+    "phi3": 0.02,
+    "selected": true
+  },
+  "lcs_c4_at_first_collision": null,
+  "lcs_drop_intervals_by_constraint": {
+    "C1": [
+      [
+        0.22999999999999998,
+        0.5099999999999998,
+        29
+      ]
+    ],
+    "C2": [],
+    "C3": [],
+    "C4": []
+  },
+  "lcs_dropped_samples_by_constraint": [
+    29,
+    0,
+    0,
+    0
+  ],
+  "lcs_min_enforced_constraints": 3,
+  "lcs_max_enforced_constraints": 4,
+  "standard_min_h": -0.3330559654976275,
+  "lcs_min_h": 0.5680814722379415,
+  "proposed_min_h": 0.5799686076585384,
+  "standard_min_phi1": -0.8548050413393573,
+  "lcs_min_phi1": 0.008653078293872074,
+  "proposed_min_phi1": 0.008653078293872074,
+  "standard_min_phi2": -3.6103429383633916,
+  "lcs_min_phi2": 2.2467234319238543,
+  "proposed_min_phi2": 2.4407981478184126,
+  "standard_min_phi3": -137.23889540920382,
+  "lcs_min_phi3": -2.0628397688261866,
+  "proposed_min_phi3": 0.019999999999960494,
+  "standard_initial_chain_min": [
+    0.8616781198459025,
+    0.008653078293872074,
+    5.3781471021232266
+  ],
+  "lcs_initial_chain_min": [
+    0.8616781198459025,
+    0.008653078293872074,
+    5.3781471021232266
+  ],
+  "proposed_initial_chain_min": [
+    0.8616781198459025,
+    0.008653078293872074,
+    5.3781471021232266
+  ],
+  "standard_collision_obstacles": [
+    4
+  ],
+  "lcs_collision_obstacles": [],
+  "proposed_collision_obstacles": [],
+  "standard_min_h_by_obstacle": [
+    1.7609401275949603,
+    1.7286464452955903,
+    6.554474103831125,
+    -0.3330559654976275
+  ],
+  "lcs_min_h_by_obstacle": [
+    0.9569974317974861,
+    1.7286464452955903,
+    6.5569322125990075,
+    0.5680814722379415
+  ],
+  "proposed_min_h_by_obstacle": [
+    1.0066806202977776,
+    1.7286464452955903,
+    6.556388925310508,
+    0.5799686076585384
+  ],
+  "lcs_max_control": 20.004856216795282,
+  "proposed_max_kappa": 2.3087394383448556,
+  "proposed_min_kappa": 2.0,
+  "proposed_max_eta": 0.3556187299281361,
+  "proposed_max_control": 11.98341448810215
+}

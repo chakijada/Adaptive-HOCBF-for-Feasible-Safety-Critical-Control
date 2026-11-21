@@ -1,0 +1,21 @@
+{
+ "standard": {
+  "h_min_samples": -0.3330559654976275,
+  "h_min_grid": -0.3330560733082856
+ },
+ "lcs": {
+  "h_min_samples": 0.5680814722379415,
+  "h_min_grid": 0.5680807742305802
+ },
+ "proposed": {
+  "h_min_samples": 0.5799686076585384,
+  "h_min_grid": 0.5799637637621653
+ },
+ "proposed_chain": {
+  "psi1_min_samples": 0.008653078293872074,
+  "psi1_min_grid": 0.008653078293872074,
+  "psi2_min_samples": 2.4407981478184126,
+  "psi2_min_grid": 2.4407922995114903
+ },
+ "grid_points_per_interval": 100
+}

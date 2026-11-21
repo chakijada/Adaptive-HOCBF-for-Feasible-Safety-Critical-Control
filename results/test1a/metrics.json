@@ -1,0 +1,14 @@
+{
+ "samples": 278,
+ "fixed_gain_infeasible": 24,
+ "lcs_dropped": 24,
+ "proposed_infeasible": 0,
+ "eta_max": 0.412735941737067,
+ "kappa_dev_max": 0.4209281580756201,
+ "nu_abs_max": 2.091231823900479,
+ "h_min_by_obstacle": [
+  2.079665742001458,
+  1.0954304330082578,
+  5.879437197676302
+ ]
+}
